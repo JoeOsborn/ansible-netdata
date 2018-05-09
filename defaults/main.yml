@@ -86,6 +86,9 @@ netdata_installer: ./netdata-installer.sh
 # will be lost when netdata exits.
 netdata_memory_mode: save
 
+# Netdata OOM Killer score (see https://github.com/firehol/netdata/wiki/netdata-OOMScore )
+netdata_oom_score: 1000
+
 # The default port to listen for web clients.
 netdata_default_port: 19999
 
